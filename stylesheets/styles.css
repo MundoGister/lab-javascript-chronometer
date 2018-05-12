@@ -10,7 +10,7 @@ body {
   padding: 40px 0;
 }
 
-#clock {
+#clock, #clock2 {
   border: 2px solid #000;
   border-radius: 20px;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
   width: 245px;
 }
 
-#sphere {
+#sphere, #sphere2{
   border: 2px solid #000;
   border-radius: 20px;
   box-sizing: border-box;
@@ -34,19 +34,19 @@ body {
   width: 220px;
 }
 
-#splits-container {
+#splits-container, #splits-container2 {
   font-size: 20px;
   font-weight: 100;
   position: absolute;
   left: 50px;
 }
 
-#splits-container li {
+#splits-container li, #splits-container2 li {
   padding-bottom: 5px;
   text-align: right;
 }
 
-#milliseconds {
+#milliseconds, #milliseconds2 {
   font-size: 36px;
   margin-top: -15px;
   position: absolute;
